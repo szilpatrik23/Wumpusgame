@@ -1,12 +1,12 @@
 package Main;
 
-public class Board {
+public class Tabla {
     private int meret;
     private char [] [] tabla;
     private char [] [] eredetitabla;
     // Új mező miatt
     
-    public Board(int meret, char [][] tabla, Hos hos)
+    public Tabla(int meret, char [][] tabla, Hos hos)
     {
         this.meret = meret;
         this.tabla = tabla;
