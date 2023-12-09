@@ -1,5 +1,5 @@
 package Main;
 
-public interface Scanner {
+public interface Iscanner {
     String nextLine();
 }

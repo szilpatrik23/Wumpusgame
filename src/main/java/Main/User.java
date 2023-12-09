@@ -1,11 +1,11 @@
 package Main;
 public class User {
-    private final Scanner scan;
+    private final Iscanner scan;
     
     private int pont;
     private String felhasznev;
     
-    public User(Scanner scan){
+    public User(Iscanner scan){
         this.scan = scan;
         this.pont = 0;
         this.felhasznev = "";
